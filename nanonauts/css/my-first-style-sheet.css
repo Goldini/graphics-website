@@ -1,15 +1,30 @@
 body {
-  background-color: cornflowerblue;
+  background-color: thistle;
+  border: 2px solid gray;
+  border-radius: 16px;
   font-family: sans-serif;
+  margin-left:auto;
+  margin-right:auto; 
+  max-width: 1024px;
+  min-width: 256px;
+  padding-top: 8px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
-
+html{
+  background:linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+  background-size: 64px 64px;
+}
 h1 {
   color:purple;
 }
 
 ::selection {
-  background: #000000; /* WebKit/Blink Browsers */
-  color: yellowgreen;
+  background: #00d9ff; /* WebKit/Blink Browsers */
+  color: rgb(47, 0, 255);
 }
 
 .version {
