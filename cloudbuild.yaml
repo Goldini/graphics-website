@@ -1,6 +1,6 @@
 steps:
   - name: ubuntu
-    args: ["sed", "-i", "s/__BUILD_NUMBER__/$BUILD_ID/", "nanonauts/index.html"]
+    args: ["sed", "-i", "s/__TAG_NAME__/$TAG_NAME/", "nanonauts/index.html"]
 
   - name: gcr.io/cloud-builders/gsutil
     args: ["-m", "rsync", "-r", "-c", "-d", "./nanonauts/", "gs://gfx.goldsolutions.co.nz/"]

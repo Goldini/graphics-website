@@ -1,12 +1,18 @@
 body {
-    background-color: cornflowerblue;
-font-family: sans-serif;
+  background-color: cornflowerblue;
+  font-family: sans-serif;
 }
+
 h1 {
-    color:purple;
-    
+  color:purple;
 }
+
 ::selection {
   background: #000000; /* WebKit/Blink Browsers */
   color: yellowgreen;
+}
+
+.version {
+  position: fixed;
+  bottom: 0;
 }
