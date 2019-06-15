@@ -10,7 +10,7 @@ body {
   padding-bottom: 24px;
   padding-left: 24px;
   padding-right: 24px;
-  cursor: url('images/cursor.cur'), auto;
+  cursor: url('../images/cursor.cur'), auto;
 }
 
 html{
